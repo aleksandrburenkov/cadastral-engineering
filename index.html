@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <title>Техплан Феникс</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        <div class="header__body">
+          <div class="header__body-left">
+            <div class="header__logo">
+              <a href="">
+                <img class="logo" src="image/Logo.png" alt="logo">
+              </a>
+
+            </div>
+            <div class="header__text">
+              <p>Кадастровые услуги<br>
+                в Смоленске и Смоленской области</p>
+            </div>
+          </div>
+          <div class="header__body-right">
+            <div class="header__tel">
+              <a target="_blank" href="tel:+79156418217">+7(915)641-82-17</a>
+            </div>
+            <div class="header__button">
+              <button class="btn-bell" data-modal-open="modal-1">Заказать звонок</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="header__toggle">
+          <div class="menu-icon-wrapper">
+            <div class="menu-icon"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" data-modal="modal-1">
+        <div class="modal__bg">
+          <div class="modal__body">
+            <div class="modal__close-wrapper">
+              <div class="modal__close"></div>
+            </div>
+            <div class="modal__form">
+              <div class="modal__form-title">
+                <p>Заказать звонок</p>
+              </div>
+              <div class="modal__form__subtitle">
+                <p>Заполните форму и я перезвоню Вам в течение 15 минут</p>
+              </div>
+              <form class="form">
+                <input type="text" name="name" class="modal__form-name" placeholder="Имя">
+                <input type="tel" name="phone" class="art-stranger modal__form-phone" placeholder="Телефон">
+                <input type="submit" class="modal__form-submit" value="отправить">
+                <div class="checkbox">
+                  <input type="checkbox" id="salest" name="salest">
+                  <label for="salest" class="contacts-callback-checkbox">
+                    Нажимая на кнопку, вы даёте <span> согласие</span>
+                    на обработку персональных данных
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal" data-modal="modal-2">
+        <div class="modal__bg">
+          <div class="modal__body">
+            <div class="modal__close-wrapper">
+              <div class="modal__close"></div>
+            </div>
+            <div class="modal__form">
+              <div class="modal__form-title">
+                <p>узнать стоимость</p>
+              </div>
+              <div class="modal__form__subtitle">
+                <p>Заполните форму и я перезвоню Вам в течение 15 минут</p>
+              </div>
+              <form class="form">
+                <input type="text" name="name" class="modal__form-name" placeholder="Имя">
+                <input type="tel" name="phone" class="art-stranger modal__form-phone" placeholder="Телефон">
+                <input type="submit" class="modal__form-submit" value="отправить">
+                <div class="checkbox">
+                  <input type="checkbox" id="salest-two" name="salest">
+                  <label for="salest" class="contacts-callback-checkbox">
+                    Нажимая на кнопку, вы даёте <span> согласие</span>
+                    на обработку персональных данных
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="block-main-screen">
+        <div class="block-main-screen__container _container">
+          <div class="block-main-screen__body">
+            <div class="block-main-screen__title">
+              <h1>Широкий спектр услуг в сфере недвижимости</h1>
+            </div>
+            <div class="block-main-screen__subtitle">
+              <p>недвижимость - ваша, забота - наша</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="main-block-image _ibg">
+          <img src="image/main-screen.jpg" alt="main_screen">
+        </div>
+      </section>
+      <section class="block-main-directions">
+
+        <div class="block-main-directions__container _container">
+          <div class="block-main-directions__body">
+            <div class="block-main-directions__title-section section-title">
+              <p class="section-title__text">Основные направления кадастровых услуг</p>
+            </div>
+            <div class="block-main-directions__card">
+              <a href="#technical-plan" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-zdanie.jpg" alt="techplan-zdanie">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план на здание
+                        (многоквартирный дом, жилой дом, садовый дом, гараж,
+                        хоз. постройка)</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a a href="#technical-plan" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-pereplanirovka.jpg" alt="techplan-pereplanirovka">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план для внесения изменений после перепланировки или реконструкции</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#technical-plan" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-kvartira.jpg" alt="techplan-kvartira">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план на помещение (квартиру)</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#lease-agreement" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-arenda.jpg" alt="techplan-arenda">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план для аренды</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#plan-explication" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/poetegnyi-plan.jpg" alt="poetegnyi-plan">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Поэтажный план и экспликация</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#act-examination" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/akt-obsledowaniya.jpg" alt="akt-obsledowaniya">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Акт обследования
+                        (снятие объекта с учета)</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#technical-description" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techopisanie.jpg" alt="techopisanie">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Техническое описание
+                        (технический паспорт)</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#linear-objects" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-soorugenie.jpg" alt="techplan-soorugenie">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план на сооружение (линейные объекты)</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+              <a href="#under-construction" class="block-main-directions__column">
+                <div class="block-main-directions__items">
+                  <div class="block-main-directions__image">
+                    <img src="image/uslugi/techplan-nezaverchonnoe-stroitelstvo.jpg" alt="nezaverchonnoe-stroitelstvo">
+                  </div>
+                  <div class="block-main-directions__text-bg">
+                    <div class="block-main-directions__text">
+                      <p>Технический план на объект незавершенного строительства</p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </a>
+
+            </div>
+          </div>
+        </div>
+        <div class="main-block-image-bg _ibg">
+          <img src="image/bg.jpg" alt="bg">
+        </div>
+      </section>
+      <section class="block-technical-plan" id="technical-plan">
+        <div class="block-technical-plan__container _container">
+          <div class="block-technical-plan__body">
+            <div class="block-technical-plan__title-section section-title">
+              <p class="section-title__text">Технический план</p>
+            </div>
+            <div class="block-technical-plan__text section-subtitle">
+              <p><span>Технический план</span> — это документ, который описывает характеристики здания, сооружения,
+                квартиры, помещения или другие капитальные строения. На основании такого плана сведения об объектах
+                вносятся в Единый государственный реестр недвижимости, а собственник получает соответствующие права на
+                них.</p>
+            </div>
+            <div class="block-technical-plan__subtitle subtitle-block">
+              <p>В каких случаях необходим техплан?</p>
+            </div>
+            <div class="block-technical-plan__subtitle-text subtitle-text-block">
+              <p>Технический план требуется главным образом для постановки объектов капитального строительства на
+                кадастровый учет, либо для внесения изменений в характеристики этих объектов капитального строительства.
+                Документ готовят для новых частных и многоквартирных домов, квартир, жилых и нежилых помещений, объектов
+                незавершенного строительства, линейных сооружений, гаражей и т.д.</p>
+            </div>
+            <div class="block-technical-plan__block-list-image">
+              <div class="block-technical-plan__block-list-image-body ">
+                <div class="block-technical-plan__block-list list-block">
+                  <p>Техплан потребуется в следующих случаях:</p>
+                  <ul>
+                    <li>если объект недвижимости ранее не числился в ЕГРН, предстоит первичная регистрация прав
+                      собственности на него;</li>
+                    <li>при вводе капитального строения в эксплуатацию;</li>
+                    <li>если в результате реконструкции, перепланировки или других действий недвижимость претерпела
+                      существенные изменения (например, поменялась площадь, этажность);</li>
+                    <li>при разделе или объединении нескольких помещений, сооружений;</li>
+                    <li>для регистрации обременения, передачи в аренду или бессрочное пользование;</li>
+                    <li>для привязки капитального объекта к земельному участку по координатам.</li>
+                  </ul>
+                </div>
+                <div class="block-technical-plan__block-image image-list">
+                  <img src="/image/img-opisanie/block-techplan.jpg" alt="block-techplan">
+                </div>
+              </div>
+            </div>
+            <div class="block-technical-plan__text-without-binding binding-without-text">
+              <p>Некапитальным объектам, к которым относятся навесы, киоски, мобильные гаражи, контейнеры и т.д.,
+                технический план не требуется. Обновлять этот документ не придется, если в здании или помещении выполнен
+                ремонт, не повлекший изменений площади и этажности, не затронувший несущие конструкции или перегородки.
+              </p>
+            </div>
+            <div class="block-technical-plan__documents-title">
+              <div class="block-technical-plan__subtitle subtitle-block">
+                <p>Какие документы нужно предоставить специалисту?</p>
+              </div>
+              <div class="block-technical-plan__subtitle-text subtitle-text-block">
+                <p>Для составления технического плана в обязательном порядке требуются правоустанавливающие документы и
+                  удостоверение личности заявителя. В зависимости от ситуации, кадастровый инженер может запросить и
+                  другие бумаги:</p>
+              </div>
+            </div>
+            <div class="block-technical-plan__documents-title-list">
+              <ul>
+                <li>проект перепланировки, акт приемочной комиссии;</li>
+                <li>исходно-разрешительную документацию</li>
+                <li>судебные решения, постановления контролирующих инстанций в отношении объекта недвижимости;</li>
+                <li>договор аренды или сервитута;</li>
+                <li>согласие других собственников и залогодержателей;</li>
+                <li>доверенность, если техпаспорт оформляет представитель заказчика, и т.д.</li>
+              </ul>
+            </div>
+            <div class="block-technical-plan__text-without-binding binding-without-text">
+              <p>После анализа имеющихся данных специалист посетит объект недвижимости, проведет точные замеры и съемку.
+                По результатам обследования он составит технический план с описательной и графической частью и заверит
+                его электронной подписью.
+              </p>
+            </div>
+            <div class="block-technical-plan__text-without-binding binding-without-text --text-padding">
+              <p>Для передачи в Росреестр требуется именно электронная версия документа. Бумажный образец может
+                пригодиться для почтовой отправки в суд или другие инстанции.
+              </p>
+            </div>
+            <div class="block-technical-plan__terms-cost">
+              <div class="block-technical-plan__subtitle subtitle-block">
+                <p>Сроки и стоимость подготовки технического плана</p>
+              </div>
+              <div class="block-technical-plan__subtitle-text subtitle-text-block">
+                <p>Скорость и цена создания технического плана зависит от площади и сложности объекта, объема
+                  сопутствующих работ. Чаще всего на подготовку документов уходит около 2-10 рабочих дней.</p>
+              </div>
+            </div>
+            <div class="block-technical-plan__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+      <section class="block-act-examination" id="act-examination">
+        <div class="block-act-examination__container _container">
+          <div class="block-act-examination__body">
+            <div class="block-act-examination__title-section section-title">
+              <p class="section-title__text">Акт обследования</p>
+            </div>
+            <div class="block-act-examination__subtitle subtitle-block">
+              <p>Что такое акт обследования и для чего он нужен?</p>
+            </div>
+            <div class="block-act-examination__subtitle-text subtitle-text-block">
+              <p>Документ, в котором содержится заключение кадастрового инженера об утрате физического существования
+                здания. Снимать недвижимость с учета необходимо, чтобы прекратить начисление налогов, а также
+                впоследствии зарегистрировать новый объект, созданный на месте утраченного. При внесении изменений в
+                ЕГРН прекращается право собственности на здание, которые прекратило свое существование.</p>
+            </div>
+            <div class="block-act-examination__subtitle subtitle-block">
+              <p>Порядок совершения процедуры, перечень документов</p>
+            </div>
+            <div class="block-act-examination__subtitle-text subtitle-text-block">
+              <p>Информация обо всех объектах недвижимости, находящихся на территории нашей страны, содержится в
+                Росреестре. Этот государственный орган принимает документы для снятия зданий с учета, вносит изменения в
+                ЕГРН. Обратиться в Росреестр может собственник недвижимого имущества (в том числе через представителя).
+              </p>
+            </div>
+            <div class="block-act-examination__block-list-image">
+              <div class="block-act-examination__block-list-image-body">
+                <div class="block-act-examination__block-list list-block">
+                  <p>Для совершения процедуры потребуются следующие документы:</p>
+                  <ul>
+                    <li>правоустанавливающие документы;</li>
+                    <li>решение собственника о сносе здания;</li>
+                    <li> уведомление о начале сноса;</li>
+                    <li>уведомление об окончании сноса;</li>
+                    <li>проект демонтажа (для нежилых зданий);</li>
+                    <li>акт обследования объекта, подготовленный кадастровым инженером по форме, утвержденной
+                      Минэкономразвития.</li>
+                  </ul>
+                </div>
+                <div class="block-act-examination__block-image image-list">
+                  <img src="/image/img-opisanie/block-plan.jpg" alt="block-plan">
+                </div>
+              </div>
+            </div>
+            <div class="block-act-examination__text-without-binding binding-without-text">
+              <p>Документы можно передать в электронном виде через портал Росреестра или МФЦ. Обычно процедура снятия с
+                учета занимает до 10 дней, проводится без уплаты госпошлины. В результате заявитель получает выписку
+                ЕГРН, в которой указано, что объект недвижимости прекратил свое существование.
+              </p>
+            </div>
+            <div class="block-act-examination__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="main-block-image-bg _ibg">
+          <img src="image/bg.jpg" alt="bg">
+        </div>
+
+      </section>
+      <section class="block-lease-agreement" id="lease-agreement">
+        <div class="block-lease-agreement__container _container">
+          <div class="block-lease-agreement__body">
+            <div class="block-lease-agreement__title-section section-title">
+              <p class="section-title__text">Договор аренды</p>
+            </div>
+            <div class="block-lease-agreement__subtitle subtitle-block">
+              <p>Регистрация договора аренды нежилого помещения или части здания: особенности процедуры</p>
+            </div>
+            <div class="block-lease-agreement__subtitle-text subtitle-text-block">
+              <p>Если вы планируете сдать в аренду часть площади вашего помещения в законном порядке, то одного договора
+                аренды будет недостаточно. Необходимо подготовить и передать в Росреестр технический план на ту часть
+                помещения, которая передается в аренду. После чего Росреестр внесет запись о зарегистрированной аренде,
+                сроках действия аренды, количестве и перечне сдаваемых помещений, арендуемой площади, арендаторах,
+                сроках действия договора и номере государственной регистрации обременения.</p>
+            </div>
+
+            <div class="block-lease-agreement__block-list-image">
+              <div class="block-lease-agreement__block-list-image-body">
+                <div class="block-lease-agreement__block-list list-block">
+                  <p>На что нужно обратить внимание при оформлении договора аренды нежилого помещения</p>
+                  <ul>
+                    <li>в документе должна быть именно та графика (поэтажный план), которая содержится в базе ЕГРН;</li>
+                    <li> не находится ли помещение в залоге? Если находится, то потребуется согласие на проведение
+                      кадастровых работ от залогодержателя;</li>
+                    <li> образование части помещения возможно только в том помещении, у которого есть кадастровый номер
+                      и правообладатель;</li>
+                    <li> в договоре аренды обязательно должна быть графическая часть с планом помещения.</li>
+
+                  </ul>
+                </div>
+                <div class="block-lease-agreement__block-image image-list">
+                  <img src="/image/img-opisanie/block-arenda.jpg" alt="block-arenda">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="block-lease-agreement__subtitle subtitle-block">
+              <p>Какие документы понадобится для регистрации договора аренды помещения/здания :</p>
+            </div>
+            <div class="block-lease-agreement__subtitle-text subtitle-text-block">
+              <p>Для проведения процедуры необходим технический план, составленный кадастровым инженером. Чтобы
+                подготовить технический план необходимы следующие документы:</p>
+            </div>
+
+            <div class="block-lease-agreement__block-list-image">
+              <div class="block-lease-agreement__block-list-body">
+                <div class="block-lease-agreement__block-list list-block --width">
+
+                  <ul>
+                    <li> свидетельство о государственной регистрации права на помещение (выписка из ЕГРН или кадастровый
+                      номер);</li>
+                    <li>договор аренды, в котором содержится план части этажа с выделенными арендуемыми комнатами
+                      (цветной скан в хорошем качестве);</li>
+                    <li>разрешение на ввод здания в эксплуатацию, разрешение на строительство здания или технический
+                      паспорт здания до 01.01.2013 г., либо Проектная документация на здание.</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="block-lease-agreement__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="block-plan-explication" id="plan-explication">
+        <div class="block-plan-explication__container _container">
+          <div class="block-plan-explication__body">
+            <div class="block-plan-explication__title-section section-title">
+              <p class="section-title__text">Поэтажный план и экспликация</p>
+            </div>
+            <div class="block-plan-explication__text section-subtitle">
+              <p><span>Поэтажный план </span> — это чертеж, на котором изображаются все помещения на каждом этаже
+                здания, а также обозначаются несущие стены, оконные и дверные проемы.</p>
+            </div>
+            <div class="block-plan-explication__text section-subtitle">
+              <p><span>Экспликация</span> — это технический документ на недвижимость. Его оформляют в виде таблицы, в
+                которую записывают адрес дома, этаж, общую площадь, количество комнат и вспомогательных помещений.</p>
+            </div>
+            <div class="block-plan-explication__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="main-block-image-bg _ibg">
+          <img src="image/bg.jpg" alt="bg">
+        </div>
+
+      </section>
+      <section class="block-technical-description" id="technical-description">
+        <div class="block-technical-description__container _container">
+          <div class="block-technical-description__body">
+            <div class="block-technical-description__title-section section-title">
+              <p class="section-title__text">Как заказать услугу изготовления технического паспорта объекта?</p>
+            </div>
+            <div class="block-technical-description__text section-subtitle">
+              <p><span>Техническое описание (Техпаспорт)</span> — это документ, содержащий основные сведения о
+                фактическом состоянии объекта недвижимости в текстовом и графическом виде.<br>
+                Технический паспорт необходим при сделках с недвижимостью: купле, продаже, оформлении ипотеки в банке,
+                наследовании. Владельцам коммерческой недвижимости услуга нужна также для получения различных разрешений
+                от уполномоченных органов – например, для выдачи лицензии на алкоголь.</p>
+            </div>
+            <div class="block-technical-description__text-without-binding binding-without-text">
+              <p>Техпаспорт оформляется только на объекты капитального строительства – здания, нежилые помещения,
+                квартиры.
+              </p>
+            </div>
+            <div class="block-technical-description__block-list-image">
+              <div class="block-technical-description__block-list-image-body">
+                <div class="block-technical-description__block-list list-block">
+                  <p>Текстовая часть технического паспорта содержит в себе следующие сведения:</p>
+                  <ul>
+                    <li>вид объекта;</li>
+                    <li>назначение – жилое/ нежилое;</li>
+                    <li>адрес (описание местоположения);</li>
+                    <li>ранее присвоенные номера, а также кадастровый номер;</li>
+                    <li>технические характеристики объекта: площадь, количество этажей;</li>
+                    <li>год постройки;</li>
+                    <li>материал стен;</li>
+                    <li>сведения о правообладателях объекта и номер регистрации права в ЕГРН;</li>
+                    <li>экспликацию помещений;</li>
+
+                  </ul>
+                </div>
+                <div class="block-technical-description__block-image image-list">
+                  <img src="/image/img-opisanie/block-techopisanie.jpg" alt="block-arenda">
+                </div>
+              </div>
+            </div>
+            <div class="block-technical-description__block-list-image">
+              <div class="block-technical-description__block-list-body">
+                <div class="block-technical-description__block-list list-block">
+                  <p>Графическая часть состоит из поэтажного плана и ситуационного плана объекта на земельном участке.
+                  </p>
+                  <ul>
+                    <span>на поэтажном плане указываются следующие сведения:</span>
+                    <li>несущие стены и внутренние перегородки;</li>
+                    <li>конфигурация каждого помещения с нанесением размеров;</li>
+                    <li>расположение окон и дверей/проемов;</li>
+                    <li>обозначение и площадь каждого помещения;</li>
+                    <li>высота потолков;</li>
+
+
+                  </ul>
+
+
+
+
+
+                </div>
+
+              </div>
+            </div>
+            <div class="block-technical-description__block-list-image --block-list-padding">
+              <div class="block-technical-description__block-list-body">
+                <div class="block-technical-description__block-list list-block  --width">
+                  <p>На что нужно обратить внимание при оформлении технического документа?
+                  </p>
+                  <ul>
+
+                    <li>сроки и стоимость оформления технического паспорта зависят от конкретных параметров объекта
+                      недвижимости (площадь, конструктивные особенности).</li>
+                    <li>документ действителен до тех пор, пока не изменятся технические параметры объекта недвижимости.
+                    </li>
+
+
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="block-technical-description__block-list-image --block-list-padding --position">
+              <div class="block-technical-description__block-list-body">
+                <div class="block-technical-description__block-list list-block --width">
+                  <p>Для оказания услуги нам понадобятся
+                  </p>
+                  <ul>
+
+                    <li>правоустанавливающие документы на нежилое помещение или иной объект недвижимости;</li>
+                    <li>паспортные данные правообладателя;</li>
+                    <li>раннее выданные документы из Бюро технической инвентаризации, Росреестра (при наличии);</li>
+
+
+                  </ul>
+
+
+
+                </div>
+
+              </div>
+            </div>
+            <div class="block-technical-description__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-technical-plan-linear-objects" id="linear-objects">
+        <div class="block-technical-plan-linear-objects__container _container">
+          <div class="block-technical-plan-linear-objects__body">
+            <div class="block-technical-plan-linear-objects__title-section section-title">
+              <p class="section-title__text">Технический план на сооружения ( линейные объекты )</p>
+            </div>
+
+            <div class="block-technical-plan-linear-objects__text section-subtitle">
+              <p><span>Линейные объекты</span> — это сооружения, которые, в свою очередь, являются объектами
+                капитального строительства и, соответственно, объектами недвижимости. К их числу относят трубопроводы,
+                автомагистрали, электролинии, железные дороги, линии связи. Все они подлежат обязательному
+                государственному кадастровому учету.</p>
+            </div>
+            <div class="block-technical-plan-linear-objects__subtitle subtitle-block">
+              <p>Основные характеристики линейных объектов.</p>
+            </div>
+            <div class="block-technical-plan-linear-objects__subtitle-text subtitle-text-block">
+              <p>При постановке на кадастровый учет специалист указывает характеристики линейного объекта, позволяющие
+                определить его как индивидуально-определенное сооружение. К ним можно отнести:</p>
+            </div>
+            <div class="block-technical-plan-linear-objects__block-list-image">
+              <div class="block-technical-plan-linear-objects__block-list-image-body">
+                <div class="block-technical-plan-linear-objects__block-list list-block">
+
+                  <ul>
+                    <li>протяженность;</li>
+                    <li>площадь застройки;</li>
+                    <li>используемые при строительстве материалы;</li>
+                    <li>глубина залегания;</li>
+                    <li>проект демонтажа (для нежилых зданий);</li>
+                    <li>объем;</li>
+                  </ul>
+                  <div class="block-technical-plan-linear-objects__subtitle subtitle-block">
+                    <p>Какие документы необходимы?</p>
+                  </div>
+                  <ul>
+                    <li>проектная документация</li>
+                    <li>разрешение на строительство;</li>
+                    <li>акт приема-передачи;</li>
+                    <li>документы на земельный участок и пр.;</li>
+
+                  </ul>
+                </div>
+                <div class="block-technical-plan-linear-objects__block-image image-list">
+                  <img src="/image/img-opisanie/block-lineinue-obgecty.jpg" alt="lineinue-obgecty">
+                </div>
+              </div>
+            </div>
+            <div class="block-technical-plan-linear-objects__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+        </div>
+        <div class="main-block-image-bg _ibg">
+          <img src="image/bg.jpg" alt="bg">
+        </div>
+      </section>
+      <section class="block-reconstruction" id="reconstruction">
+        <div class="block-reconstruction__container _container">
+          <div class="block-reconstruction__body">
+            <div class="block-reconstruction__title-section section-title">
+              <p class="section-title__text">Реконструкция</p>
+            </div>
+            <div class="block-reconstruction__text section-subtitle">
+              <p><span>Реконструкция здания</span> — это изменение параметров существующего здания или его частей
+                (например, увеличение высоты, количества этажей, площади) либо замена, восстановление его несущих
+                строительных конструкций.</p>
+            </div>
+            <div class="block-reconstruction__text-without-binding binding-without-text --text-padding">
+              <p>Следует различать понятия Реконструкция и понятия Капитального и текущего ремонта, они отличаются
+                характером проводимых работ. Так, при реконструкции здание может перестраиваться, в нем могут
+                возводиться надстройки и пристройки.
+              </p>
+            </div>
+            <div class="block-reconstruction__block-list-image">
+              <div class="block-reconstruction__block-list-image-body">
+                <div class="block-reconstruction__block-list list-block">
+                  <p>Какие документы необходимы ?</p>
+                  <ul>
+                    <li>Проектная документация</li>
+                    <li> Разрешение на строительство</li>
+
+
+                  </ul>
+                  <div class="block-reconstruction__text-binding ">
+                    <p>По завершении реконструкции здания потребуется проведение кадастровых работ и подготовка
+                      документов для
+                      его ввода в эксплуатацию. Далее здание следует ввести в эксплуатацию, после этого проводится
+                      кадастровый
+                      учет изменений.
+                    </p>
+                  </div>
+                  <div class="block-reconstruction__text-binding ">
+                    <p><span>Для жилых домов до марта 2031 г. действует упрощенная система</span>, достаточно документов
+                      на земельный участок и технического плана от кадастрового инженера.</p>
+                  </div>
+                </div>
+                <div class="block-reconstruction__block-image image-list">
+                  <img src="/image/img-opisanie/block-rekonstrukcuia.jpg" alt="block-rekonstrukcuia">
+                </div>
+              </div>
+            </div>
+            <div class="block-reconstruction__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="block-under-construction" id="under-construction">
+        <div class="block-under-construction__container _container">
+          <div class="block-under-construction__body">
+            <div class="block-under-construction__title-section section-title">
+              <p class="section-title__text">Технический план на объект незавршенного строительства</p>
+            </div>
+            <div class="block-under-construction__text section-subtitle">
+              <p><span>Объект незавершенного строительства</span> — это здание, возведение которого затянулось или было
+                приостановлено на неопределенный срок. Для него характерны следующие признаки:</p>
+            </div>
+            <div class="block-under-construction__text-without-binding binding-without-text --text-padding">
+              <p>Строительство приостановлено на стадии, при которой невозможно ввести объект в эксплуатацию или
+                полноценно использовать его по предназначению.
+              </p>
+            </div>
+            <div class="block-under-construction__text section-subtitle --text-padding">
+              <p><span>«Недострой» </span> — объект капитального строительства, который прочно связан с земельным
+                участком.</p>
+            </div>
+            <div class="block-under-construction__text-without-binding binding-without-text --text-padding">
+              <p>Недостроенное здание относится к недвижимому имуществу. Это дома, коммерческие сооружения, но не сараи
+                и хозяйственные постройки на дачном участке.
+              </p>
+            </div>
+
+            <div class="block-under-construction__block-list-image">
+              <div class="block-under-construction__block-list-image-body">
+                <div class="block-under-construction__block-list list-block">
+                  <p>Для совершения процедуры потребуются следующие документы:</p>
+                  <ul>
+                    <li>правоустанавливающие документы на земельный участок ( договор купли-продажи, договор дарения и
+                      т.д);</li>
+                    <li>уведомление о начале строительства;</li>
+                    <li> уведомление о начале сноса;</li>
+                    <li>паспорт, снилс;</li>
+                    <li>выписка из ЕГРН ( при наличии);</li>
+
+                  </ul>
+                </div>
+                <div class="block-under-construction__block-image image-list">
+                  <img src="/image/img-opisanie/block-nezaverchonnoe-stroitelstvo.jpg"
+                    alt="nezaverchonnoe-stroitelstvo">
+                </div>
+              </div>
+            </div>
+
+            <div class="block-under-construction__buttons buttons-block">
+              <button class="btn-bell" data-modal-open="modal-2">Узнать стоимость</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="main-block-image-bg _ibg">
+          <img src="image/bg.jpg" alt="bg">
+        </div>
+
+      </section>
+      <section class="block-choode-us">
+        <div class="block-choode-us__container _container">
+          <div class="block-choode-us__body">
+            <div class="block-choode-us__title-section section-title">
+              <p class="section-title__text">Почему выбирают именно нас</p>
+            </div>
+            <div class="block-choode-us__card">
+              <div class="block-choode-us__row">
+                <div class="block-choode-us__column">
+                  <div class="block-choode-us__column-items">
+                    <div class="block-choode-us__column-image">
+                      <img src="/image/icons/rekomendaciua.png" alt="rekomendaciua">
+                    </div>
+                    <div class="block-choode-us__column-title">
+                      <p>Рекомендации знакомых</p>
+                    </div>
+                    <div class="block-choode-us__column-subtitle">
+                      <span>Более 70% клиентов обращаются к нам по рекомендации знакомых.</span>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="block-choode-us__column">
+                  <div class="block-choode-us__column-items">
+                    <div class="block-choode-us__column-image">
+                      <img src="/image/icons/individual.png" alt="individual">
+                    </div>
+                    <div class="block-choode-us__column-title">
+                      <p>Индивидуальный подход</p>
+                    </div>
+                    <div class="block-choode-us__column-subtitle">
+                      <span>Нацелены на положительный результат. Решаем сложные и нестандартные задачи. Большой
+                        опыт.</span>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="block-choode-us__column">
+                  <div class="block-choode-us__column-items">
+                    <div class="block-choode-us__column-image">
+                      <img src="/image/icons/konsultacion.png" alt="konsultacion">
+                    </div>
+                    <div class="block-choode-us__column-title">
+                      <p>Бесплатная консультация</p>
+                    </div>
+                    <div class="block-choode-us__column-subtitle">
+                      <span>По вопросам постановки объектов недвижимости на кадастровый учет.</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__top-container _container">
+          <div class="footer__top">
+
+
+            <div class="footer__top-body">
+              <div class="footer__top-title">
+                <p>Остались вопросы?</p>
+              </div>
+              <div class="footer__top-subtitle">
+                <p>Напишите мне, и я отвечу Вам в течение 15 минут.</p>
+              </div>
+              <div class="footer__top-row">
+                <div class="footer__top-column">
+                  <form action="" class="footer__top-form form-footer">
+                    <input type="text" class="form-footer-name" placeholder="Имя">
+                    <input type="tel" class="art-stranger form-footer-phone" placeholder="Tелефон">
+                    <textarea class="form-footer-textarea" rows="4" cols="20" spellcheck="true"
+                      placeholder="Сообщение"></textarea>
+                    <input type="submit" class="form-footer-submit" value="Отправить">
+                    <div class="footer__top-checkbox">
+                      <input type="checkbox" name="sales">
+                      <label for="sales" class="form-footer-checkbox">
+                        <p>Нажимая на кнопку, вы даёте согласие
+                          на обработку персональных данных</p>
+                      </label>
+                    </div>
+
+                  </form>
+                </div>
+                <nav class="footer__top-column">
+                  <ul class="footer__top-column-menu-list">
+
+                    <li class="footer__top-column-menu-link">
+                      <a href="#technical-plan">Технический план</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#act-examination">Акт обследования</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#lease-agreement">Договор аренды</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#plan-explication">Поэтажный план и экспликация</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#technical-description">Техническое описание</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#linear-objects">Линейные объекты</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#reconstruction">Реконструкция</a>
+                    </li>
+                    <li class="footer__top-column-menu-link">
+                      <a href="#under-construction">Незавершенное строительство</a>
+                    </li>
+
+                  </ul>
+                </nav>
+                <div class="footer__top-columm">
+                  <ul class="footer__top-columm-contact">
+                    <li class="footer__top-columm-phone">
+                      <span>Тел:</span>
+                      <a target="_blank" href="tel:+79156418217">+7(915)641-82-17</a>
+                    </li>
+                    <li class="footer__top-columm-email">
+                      <span>Email:</span>
+                      <a href="mailto:texplanf@mail.ru">texplanf@mail.ru</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="footer__bottom">
+            <ul class="footer__bottom-body">
+              <li class="footer__bottom-designer">
+                <div class="footer__bottom-designer-img">
+                  <img src="image/triangle.png" alt="triangles">
+                </div>
+                <div class="footer__bottom-designer-title">
+                  <a target="_blank" href="https://webmaster32.ru/">
+                    <p>Дизайн и разработка Веб-Мастер Александр Буренков</p>
+                  </a>
+
+                </div>
+              </li>
+              <li class="footer__bottom-copyright">
+                <p>&#169; Техплан Феникс, 2020-2023</p>
+              </li>
+              <li class="footer__bottom-politics">
+                <a href="politics.html">
+                  <p>Политика конфиденциальности</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </footer>
+  </div>
+  <script src="main.js"></script>
+  <script src="maska-nomera.js"></script>
+  <script src="maska_ru.js"></script>
+
+</body>
+
+</html>
