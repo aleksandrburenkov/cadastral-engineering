@@ -9,6 +9,13 @@ const anchors = document.querySelectorAll('a[href*="#"]');
 const body = document.body;
 
 navBtn.onclick = function () {
+       if (
+        nav.classList.contains('header__mobile') ||
+        menuIcon.classList.contains('menu-icon-active')
+    ) {
+        nav.classList.remove('header__mobile');
+        menuIcon.classList.remove('menu-icon-active');
+    }
     nav.classList.toggle('header__mobile');
     menuIcon.classList.toggle('menu-icon-active');
     document.body.classList.toggle('no-scroll');
