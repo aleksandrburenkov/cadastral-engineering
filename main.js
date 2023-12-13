@@ -9,20 +9,20 @@ const anchors = document.querySelectorAll('a[href*="#"]');
 const body = document.body;
 
 navBtn.onclick = function () {
- 
     nav.classList.toggle('header__mobile');
     menuIcon.classList.toggle('menu-icon-active');
-    document.body.classList.toggle('no-scroll');
+    body.classList.toggle('no-scroll');
 };
 
 function openModal(element) {
-             if (
+    if (
         nav.classList.contains('header__mobile') ||
         menuIcon.classList.contains('menu-icon-active')
     ) {
         nav.classList.remove('header__mobile');
         menuIcon.classList.remove('menu-icon-active');
     }
+
     element.classList.add('_modal-active');
     body.classList.add('no-scroll');
 }
@@ -46,7 +46,8 @@ function closeModal(e) {
         e.target.classList.contains('modal__bg')
     ) {
         e.target.closest('.modal').classList.remove('_modal-active');
-        document.body.classList.remove('no-scroll');
+
+        body.classList.remove('no-scroll');
     }
 }
 modals.forEach((modal) => {
@@ -82,12 +83,3 @@ $(document).ready(function () {
             );
     });
 });
-// let icon = document.querySelector('.menu-icon');
-// console.log(icon);
-// window.addEventListener('scroll', function (e) {
-//     if (scrollY > 800) {
-//         icon.style.backgroundColor = 'red';
-//     } else {
-//         icon.style.backgroundColor = 'white';
-//     }
-// });
